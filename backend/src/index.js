@@ -10,7 +10,7 @@ app.use(routes);
 
 app.listen(3333);
 
-/** teste
+/**
  * Rota / Recurso
  * Métodos HTTP
  * 
