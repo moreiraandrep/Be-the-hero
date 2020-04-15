@@ -45,8 +45,8 @@ export default function Detail() {
             <Text style={[styles.incidentProperty, { marginTop: 0 }]}>ONG:</Text>
             <Text style={styles.incidentValues}>{incident.name} de {incident.city}/{incident.uf}</Text>
 
-            <Text style={styles.incidentProperty}>CASOS:</Text>
-            <Text style={styles.incidentValues}>{incident.title}</Text>
+            <Text style={styles.incidentProperty}>CASO:</Text>
+            <Text style={styles.incidentValues}>{incident.description}</Text>
 
             <Text style={styles.incidentProperty}>VALOR:</Text>
             <Text style={styles.incidentValues}>

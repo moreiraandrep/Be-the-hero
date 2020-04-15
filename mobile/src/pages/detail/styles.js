@@ -19,7 +19,7 @@ export default StyleSheet.create({
       borderRadius: 8,
       backgroundColor: '#FFF',
       marginBottom: 16,
-      marginTop: 40,
+      marginTop: 20,
    },
 
    incidentProperty: {

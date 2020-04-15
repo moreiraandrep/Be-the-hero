@@ -18,7 +18,7 @@ export default function Incidents() {
    const navigation = useNavigation();
 
    function navigateToDetail(incident) {
-      navigation.navigate('Detail', incident);
+      navigation.navigate('Detail', { incident });
    }
 
    async function loadIncidents() {
@@ -70,7 +70,7 @@ export default function Incidents() {
                   <Text style={styles.incidentProperty}>ONG:</Text>
                   <Text style={styles.incidentValues}>{incident.name}</Text>
 
-                  <Text style={styles.incidentProperty}>CASOS:</Text>
+                  <Text style={styles.incidentProperty}>CASO:</Text>
                   <Text style={styles.incidentValues}>{incident.title}</Text>
 
                   <Text style={styles.incidentProperty}>VALOR:</Text>
